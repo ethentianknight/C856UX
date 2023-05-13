@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanitian Island</title>
+    <style>
+        body,
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        nav ul li a.highlighted {
+            background-color: #5a5a5a;
+            border-radius: 50px;
+        }
+
+        #hero {
+            background-color: #f1f1f1;
+            padding: 50px;
+            text-align: center;
+        }
+
+        #search {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        #search input[type="text"] {
+            padding: 10px;
+            width: 300px;
+        }
+
+        #search button[type="submit"] {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        
+#search select {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#search button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#attractions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.attraction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.attraction h3 {
+  margin-top: 0;
+}
+
+.book-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 3px;
+}
+
+        #featured {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .attraction {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 400px;
+            padding: 20px;
+            margin: 20px auto;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .attraction h3 {
+            margin-top: 0;
+        }
+
+        .book-button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border: none;
+            border-radius: 3px;
+        }
+
+        #testimonials {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .testimonial {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./attractions.html" class="highlighted">Attractions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="search">
+        <input type="text" placeholder="Search for attractions">
+        <select>
+            <option value="all">All</option>
+            <option value="beaches">Beaches</option>
+            <option value="rainforests">Rainforests</option>
+            <option value="historical-sites">Historical Sites</option>
+            <option value="adventure">Adventure</option>
+        </select>
+        <button type="submit">Search</button>
+    </section>
+
+    <section id="attractions">
+        <div class="attraction">
+            <h3>Beachside Paradise</h3>
+            <p>Relax and soak up the sun on our pristine beaches.</p>
+            <a href="./booking.html" class="book-button">Book</a>
+        </div>
+        <div class="attraction">
+            <h3>Rainforest Exploration</h3>
+            <p>Embark on an adventure and discover the wonders of our rainforests.</p>
+            <a href="./booking.html" class="book-button">Book</a>
+        </div>
+        <div class="attraction">
+            <h3>Historical Landmarks Tour</h3>
+            <p>Uncover the rich history of Tanitian Island through our historical sites.</p>
+            <a href="./booking.html" class="book-button">Book</a>
+        </div>
+        <div class="attraction">
+            <h3>Thrilling Adventure Activities</h3>
+            <p>Get your adrenaline pumping with our thrilling adventure experiences.</p>
+            <a href="./booking.html" class="book-button">Book</a>
+        </div>
+    </section>
+    <section id="attractions">
+
+        <div class="attraction">
+            <h3>Beachside Paradise</h3>
+            <p>Relax and soak up the sun on our pristine beaches.</p>
+            <a href="./booking.html" class="book-button">Book</a>
+        </div>
+        <div class="attraction">
+            <h3>Rainforest Exploration</h3>
+            <p>Embark on an adventure and discover the wonders of our rainforests.</p>
+            <a href="./booking.html" class="book-button">Book</a>
+        </div>
+        <div class="attraction">
+            <h3>Historical Landmarks Tour</h3>
+            <p>Uncover the rich history of Tanitian Island through our historical sites.</p>
+            <a href="./booking.html" class="book-button">Book</a>
+        </div>
+        <div class="attraction">
+            <h3>Thrilling Adventure Activities</h3>
+            <p>Get your adrenaline pumping with our thrilling adventure experiences.</p>
+            <a href="./booking.html" class="book-button">Book</a>
+        </div>
+    </section>
+    <section id="attractions">
+
+        <div class="attraction">
+            <h3>Beachside Paradise</h3>
+            <p>Relax and soak up the sun on our pristine beaches.</p>
+            <a href="./booking.html" class="book-button">Book</a>
+        </div>
+        <div class="attraction">
+            <h3>Rainforest Exploration</h3>
+            <p>Embark on an adventure and discover the wonders of our rainforests.</p>
+            <a href="./booking.html" class="book-button">Book</a>
+        </div>
+        <div class="attraction">
+            <h3>Historical Landmarks Tour</h3>
+            <p>Uncover the rich history of Tanitian Island through our historical sites.</p>
+            <a href="./booking.html" class="book-button">Book</a>
+        </div>
+        <div class="attraction">
+            <h3>Thrilling Adventure Activities</h3>
+            <p>Get your adrenaline pumping with our thrilling adventure experiences.</p>
+            <a href="./booking.html" class="book-button">Book</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>Follow us on <a href="https://twitter.com/TanitianIsland">Twitter</a></p>
+    </footer>
+</body>
+
+</html>
